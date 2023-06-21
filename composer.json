@@ -1,19 +1,25 @@
 {
-    "name": "laravel/laravel",
+    "name": "balajidharma/basic-laravel-admin-panel",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "The Baic Laravel Admin Panel - Laravel Admin Boilerplate",
+    "keywords": ["framework", "laravel", "boilerplate", "admin panel"],
     "license": "MIT",
     "require": {
-        "php": "^8.0",
-        "fruitcake/laravel-cors": "^2.0.5",
+        "php": "^8.0.2",
+        "balajidharma/laravel-admin-core": "^1.0",
+        "balajidharma/laravel-menu": "^1.0",
         "guzzlehttp/guzzle": "^7.2",
-        "laravel/framework": "^9.0",
-        "laravel/sanctum": "^2.14",
-        "laravel/tinker": "^2.7"
+        "laravel/framework": "^9.19",
+        "laravel/sanctum": "^2.14.1",
+        "laravel/tinker": "^2.7",
+        "spatie/laravel-permission": "^5.5"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.7",
         "fakerphp/faker": "^1.9.1",
+        "laravel/breeze": "^1.7",
+        "laravel/dusk": "^7.1",
+        "laravel/pint": "^1.0",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
